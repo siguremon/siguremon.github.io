@@ -1,13 +1,10 @@
 <!doctype html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8">
-
-    <title>reveal.js - The HTML Presentation Framework</title>
-
-    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-    <meta name="author" content="Hakim El Hattab">
+    <title>Markdown + reveal.jsでイケてるスライドを作る</title>
+    <meta name="description" content="Markdown + reveal.jsでイケてるスライドを作る">
+    <meta name="author" content="siguremon">
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -36,62 +33,11 @@
 
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-
-	<section>
-	  <h1>Reveal.js</h1>
-	  <h3>HTML Presentations Made Easy</h3>
-	  <p>
-	    <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-	  </p>
+	<section data-markdown="revealjs.md" 
+		 data-separator="\n---\n$"
+		 data-vertical="\n--\n">
 	</section>
-	
-	<section data-markdown data-separator="\n---\n$" data-vertical="\n--\n">
-	  <script type="text/template">
-	    ## タイトル
-	    
-	    - リスト
-	    - リスト
-	    
-	    本文
-	    
-	    改行とかどうよ
-	    
-	    [@hakimel]("http://twitter.com/hakimel")
-	    
-	    ```
-	    public class Sample {
-	    public static void main(String[] args) {
-	    System.out.println("hello reveal.js");
-	    }
-	    }
-	    ```
-	    
-	    ---
-	    
-	    ## 2ページ目
-	    
-	    本文　本文　本文
-	    本文　本文　本文
-	    本文　本文　本文
-	    
-	    --
-	    
-	    ## 縦ページ
-	    
-	    Main contents
-	    
-	    --
-	    
-	    ## 縦ページ
-	    
-	    <a>Good</a>
-	    
-	    
-	  </script>
-	</section>
-
       </div>
-
     </div>
 
     <script src="lib/js/head.min.js"></script>
