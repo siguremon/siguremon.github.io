@@ -145,7 +145,7 @@ hamlとかmarkdownで書けるといいなー
 
 ちなみに、このスライドもmarkdownで書かれています
 
-- [markdownとしてみた場合](http://qiita.com/users/siguremon/)
+- [markdownとしてみた場合](http://qiita.com/siguremon/items/c717eca388070215712c)
 - [slideとしてみた場合](http://siguremon.github.io/slides/revealjs.html)
 
 ---
